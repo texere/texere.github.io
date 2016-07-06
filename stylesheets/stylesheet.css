@@ -107,6 +107,36 @@ a {
   padding-bottom: 2em;
 }
 
+.main-content iframe {
+  width: 1280px;
+  height: 720px;
+}
+
+@media screen and (max-width: 1280px) {
+  .main-content iframe {
+    width: 960px;
+    height: 540px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .main-content iframe {
+    width: 640px;
+    height: 360px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .main-content iframe {
+    width: 480px;
+    height: 270px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .main-content iframe {
+    width: 320px;
+    height: 180px;
+  }
+}
 
 .main-content :first-child {
   margin-top: 0; }
